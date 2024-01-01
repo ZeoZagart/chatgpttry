@@ -1,0 +1,23 @@
+{
+    "type": "module",
+    "name": "chatgpttry",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "pretty": "prettier --write \"./**/*.{js,ts,json}\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.12",
+        "openai": "^3.1.0",
+        "pdfjs-dist": "^3.2.146",
+        "puppeteer": "^19.4.1"
+    },
+    "devDependencies": {
+        "prettier": "^2.8.1"
+    }
+}
